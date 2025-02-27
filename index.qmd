@@ -1,0 +1,179 @@
+---
+title: "67th Annual Maize Genetics Meeting"
+subtitle: ""
+---
+
+
+```{r echo=FALSE}
+#| include: false
+# toc: false
+# Quick Reference: 
+
+# ::: {.callout-tip appearance="simple" icon="false"}
+# ## Tip:
+# 
+# Maize is a delicious model system!
+# :::
+# 
+# 
+# ::: {.callout-warning appearance="simple" icon="false"}
+# ## Warning:
+# 
+# Elote is limited! Make your way to the refreshment table soon! 
+# :::
+# 
+# 
+# # Today's Schedule (Friday, March 1, 2024):
+# 
+# ::: {.callout-note appearance="simple" icon="false"}
+# ## Note:
+# 
+# Talks will be held in the Ballroom A Posters will be displayed in the Ballroom B&C
+# :::
+```
+
+```{r echo=FALSE}
+#| include: false
+
+
+library(tidyverse)
+library(kableExtra)
+# library(readxl)
+
+M <- read.csv('./generated/schedule.csv') # Times are mangled in generated
+# M <- readxl::read_xlsx('./data/MGM2025_manual_schedule.xlsx')
+M_links <- read.csv('./generated/schedule_links.csv')
+
+M$StartTime <- strftime(ymd_hms(M$StartTime), '%H:%M', tz = "UTC")
+M$EndTime   <- strftime(ymd_hms(M$EndTime), '%H:%M', tz = "UTC")
+
+M[(M$StartTime == M$EndTime), 'EndTime'] <- ''
+
+
+subset_M <- function(df = filter(M, Day = "Wednesday, February 28, 2024")){
+  out <- df |>
+    left_join(rename(M_links, Link = Name), by = 'Link') |> 
+    # mutate(Link = cell_spec(Link, 'html', link = Header)) |>
+    mutate(Link = case_when(
+      !is.na(Header) ~ cell_spec(Link, 'html', link = Header),
+       is.na(Header) ~ Link)) |>
+    select(StartTime, EndTime, Link, Presenter, Name, Location) |>
+    rename(Start = StartTime, End = EndTime, Description = Name)
+  return(out)
+}
+
+k <- function(x){
+  x |> 
+  kable('html', escape = FALSE) |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+}
+```
+
+
+::: {.callout-note appearance="simple" icon="false"}
+## Note:
+
+At present this page assumes that it's most useful to have the current day's schedule shown.
+
+To aid in navigating the schedule I have included a table of contents. 
+:::
+
+
+# Today's Schedule (Friday, March 7, 2025):    
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) < lubridate::hm("8:15")
+  )) |> k()
+
+```
+
+
+### Session 2 – Modeling Corn
+
+**Hank Bass**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("8:15"),
+  lubridate::hm(StartTime) < lubridate::hm("10:45")
+  )) |> k()
+```
+
+
+### Session 3 – Education, Community, & Outreach
+
+**Brandi Sigmon**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("10:45"),
+  lubridate::hm(StartTime) < lubridate::hm("12:15")
+  )) |> k()
+```
+
+### Lunch and Poster Session
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("12:15"),
+  lubridate::hm(StartTime) < lubridate::hm("16:40")
+  )) |> k()
+```
+
+### Session 4 – Maize Under Stress
+
+**Melissa Draves**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("16:40"),
+  lubridate::hm(StartTime) < lubridate::hm("19:00")
+  )) |> k()
+```
+
+
+
+### Session 5 – Awards
+
+**Andrea Eveland**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M, 
+  Day ==  "Friday, March 7, 2025", 
+  lubridate::hm(StartTime) >= lubridate::hm("19:00")
+  )) |> k()
+```
+
+
+
+
+
+------------------------------------------------------------------------
+
+::: {style="text-align: center"}
+*Presented by*
+:::
+
+![](data/assets/000_Cover_Draft1_MCG_logo.png){fig-align="center" width="225"}
+
+::: {style="text-align: center"}
+*Facilitated in partnership with*
+:::
+
+![](data/assets/000_Cover_Draft1_ConferenceDirect.png){fig-align="center" width="225"}
+
+::: {style="text-align: center"}
+<span style="color:firebrick">| Produced by</span> [<span style="color:firebrick">Daniel Kick, PhD</span>](mailto:hello@danielkick.com)
+:::
