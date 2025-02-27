@@ -1,10 +1,8 @@
 ---
-title: "Awards"
+title: "From the Maize Genetics Cooperation Board of Directors:"
 ---
 
-# **From the Maize Genetics Cooperation Board of Directors**
-
-## **Maize Genetics Awards:**
+## Maize Genetics Awards:
 
 ### **The 2025 MGC Cooperator Awardees**
 
@@ -16,25 +14,25 @@ title: "Awards"
 
 -   **Caroline Macron**, University of Bonn
 
-### **The 2025 MGC Leadership Awardee**
+### The 2025 MGC Leadership Awardee
 
 -   **Shawn Kaeppler**, University of Wisconsin
 
-### **The 2025 M. Rhoades Early Career Awardee**
+### The 2025 M. Rhoades Early Career Awardee
 
 -   **Erin Sparks,** University of Missouri
 
-### **The 2025 L. Stadler Mid-Career Awardee**
+### The 2025 L. Stadler Mid-Career Awardee
 
 -   **Sherry Flint-Garcia**, USDA Agricultural Research Service
 
-### **The 2025 R. Emerson Lifetime Awardees**
+### The 2025 R. Emerson Lifetime Awardees
 
 -   **Brian Larkins,** University of Nebraska, passed away on January 19^th^.
 
 -   **Zac Cande,** University of California Berkley, now retired
 
-## **The Barbara McClintock Prize for Plant Genetics and Genome Studies**
+## The Barbara McClintock Prize for Plant Genetics and Genome Studies
 
 ![](data/assets/FromTheMGCBoard/McClintock.png){fig-align="center" width="111"}
 
@@ -47,7 +45,7 @@ The **2025** Barbara McClintock Prize for Plant Genetics and Genome Studies has 
 (See <https://maizegdb.org/mgc/awards/> for details about each award)
 
 
-## **NSF-funded support for maize genetics:**
+## NSF-funded support for maize genetics:
 
 ![](data/assets/FromTheMGCBoard/NSF.jpg){fig-align="center" width="100"}
 
@@ -88,7 +86,7 @@ The Maize Genetics Meeting is supported in part by IOS Award #2329928 from the N
 
 ![](data/assets/FromTheMGCBoard/NSF.jpg){fig-align="center" width="100"}
 
-## **Broadening International Participation Awards**
+## Broadening International Participation Awards
 
 The 2025 Broadening International Participation Award program seeks to promote international attendance for researchers from countries that are historically under-represented at the Maize Meeting. This 2025 award program seeks to enrich the maize community and broaden the opportunities to learn about maize genetics by connecting with scientists in the maize genetics community, exploring potential collaborations, and developing career contacts. BIP awardees receive waived registration to the recorded talks and sessions. 
 

@@ -3,6 +3,11 @@ title: "67th Annual Maize Genetics Meeting"
 subtitle: ""
 ---
 
+::: {.callout-tip appearance="simple" icon="false"}
+## Tip:
+
+The mgm2025 homepage shows only the current day's events. Select the "Schedule" tab for the full schedule.
+:::
 
 ```{r echo=FALSE}
 #| include: false
@@ -70,91 +75,243 @@ k <- function(x){
 ```
 
 
-::: {.callout-note appearance="simple" icon="false"}
-## Note:
+## Wednesday, March 5, 2025 
 
-At present this page assumes that it's most useful to have the current day's schedule shown.
-
-To aid in navigating the schedule I have included a table of contents. 
-:::
-
-
-# Today's Schedule (Friday, March 7, 2025):    
+### Optional Pre-Conference Workshops (1/2)
 
 ```{r echo=FALSE}
 subset_M(filter(
   M, 
-  Day ==  "Friday, March 7, 2025", 
-  lubridate::hm(StartTime) < lubridate::hm("8:15")
-  )) |> k()
-
-```
-
-
-### Session 2 – Modeling Corn
-
-**Hank Bass**
-
-```{r echo=FALSE}
-subset_M(filter(
-  M, 
-  Day ==  "Friday, March 7, 2025", 
-  lubridate::hm(StartTime) >= lubridate::hm("8:15"),
-  lubridate::hm(StartTime) < lubridate::hm("10:45")
+  Day == "Wednesday, March 5, 2025", 
+  Name != "OPTIONAL PRE-CONFERENCE WORKSHOPS"
   )) |> k()
 ```
 
+## Thursday, March 6, 2025  
 
-### Session 3 – Education, Community, & Outreach
+<!-- ### Optional Pre-Conference Workshops (2/2) -->
 
-**Brandi Sigmon**
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Thursday, March 6, 2025",  -->
+<!--   Name != "OPTIONAL PRE-CONFERENCE WORKSHOPS" -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
-```{r echo=FALSE}
-subset_M(filter(
-  M, 
-  Day ==  "Friday, March 7, 2025", 
-  lubridate::hm(StartTime) >= lubridate::hm("10:45"),
-  lubridate::hm(StartTime) < lubridate::hm("12:15")
-  )) |> k()
-```
 
-### Lunch and Poster Session
+<!-- ### Session 1 – Welcome / Keynote / Gene Regulation -->
 
-```{r echo=FALSE}
-subset_M(filter(
-  M, 
-  Day ==  "Friday, March 7, 2025", 
-  lubridate::hm(StartTime) >= lubridate::hm("12:15"),
-  lubridate::hm(StartTime) < lubridate::hm("16:40")
-  )) |> k()
-```
+<!-- **Sherry Flint-Garcia** -->
 
-### Session 4 – Maize Under Stress
-
-**Melissa Draves**
-
-```{r echo=FALSE}
-subset_M(filter(
-  M, 
-  Day ==  "Friday, March 7, 2025", 
-  lubridate::hm(StartTime) >= lubridate::hm("16:40"),
-  lubridate::hm(StartTime) < lubridate::hm("19:00")
-  )) |> k()
-```
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Thursday, March 6, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("19:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
 
 
-### Session 5 – Awards
+## Friday, March 7, 2025   
 
-**Andrea Eveland**
 
-```{r echo=FALSE}
-subset_M(filter(
-  M, 
-  Day ==  "Friday, March 7, 2025", 
-  lubridate::hm(StartTime) >= lubridate::hm("19:00")
-  )) |> k()
-```
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Friday, March 7, 2025",  -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("8:15") -->
+<!--   )) |> k() -->
+
+<!-- ``` -->
+
+
+<!-- ### Session 2 – Modeling Corn -->
+
+<!-- **Hank Bass** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Friday, March 7, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("8:15"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("10:45") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+<!-- ### Session 3 – Education, Community, & Outreach -->
+
+<!-- **Brandi Sigmon** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Friday, March 7, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("10:45"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("12:15") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+<!-- ### Lunch and Poster Session -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Friday, March 7, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("12:15"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("16:40") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+<!-- ### Session 4 – Maize Under Stress -->
+
+<!-- **Melissa Draves** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Friday, March 7, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("16:40"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("19:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+
+<!-- ### Session 5 – Awards -->
+
+<!-- **Andrea Eveland** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Friday, March 7, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("19:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+
+## Saturday, March 8, 2025
+
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Saturday, March 8, 2025",  -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("8:15") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+<!-- ### Session 6 – Roots & Nutrient Uptake / Keynote -->
+
+<!-- **Rubén Rellán Álvarez** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Saturday, March 8, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("8:15"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("10:30") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+<!-- ### Session 7 – Keynote / Cell Division & Meristems -->
+
+<!-- **Sarah Jensen** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Saturday, March 8, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("10:30"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("12:30") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+<!-- ### Lunch, Poster Session, & Community Session -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Saturday, March 8, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("12:30"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("19:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+<!-- ### Session 8 – Reproduction / Keynote -->
+
+<!-- **Cinta Romay** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Saturday, March 8, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("19:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+## Sunday, March 9, 2025
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Sunday, March 9, 2025",  -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("8:00") -->
+<!--   )) |> k() -->
+
+<!-- ``` -->
+
+
+<!-- ### Session 9 – Epigenetics -->
+
+<!-- **Katie Murphy** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Sunday, March 9, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("8:25"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("10:20") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+<!-- ### Session 10 - Building a Stronger Maize Plant -->
+
+<!-- **Frank Hochholdinger** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Sunday, March 9, 2025",  -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("10:20"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("12:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+<!-- ### Optional Post-Conference Workshop -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M,  -->
+<!--   Day ==  "Sunday, March 9, 2025",  -->
+<!--   Name != "OPTIONAL POST-CONFERENCE EVENT", -->
+<!--   lubridate::hm(StartTime) > lubridate::hm("12:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+
+
+
 
 
 
@@ -174,6 +331,4 @@ subset_M(filter(
 
 ![](data/assets/000_Cover_Draft1_ConferenceDirect.png){fig-align="center" width="225"}
 
-::: {style="text-align: center"}
-<span style="color:firebrick">| Produced by</span> [<span style="color:firebrick">Daniel Kick, PhD</span>](mailto:hello@danielkick.com)
-:::
+
