@@ -69,7 +69,7 @@ The maize community offers several attendance and travel awards to encourage att
 | Mariana Chavez, Montclair State University | Poster \# 22 |
 | Enameguono Olomuko, Purdue University | Poster \# 34 |
 | Sara Hafiza, Florida State University | Short Talk \[T23\] |
-| Hank Bass, FSU, Faculty Mentor | Poster \# 87 |
+| ➥ Hank Bass, FSU, Faculty Mentor | Poster \# 87 |
 | Sebastian Mueller, Oregon State University | Poster \# 158; Lightning Talk \[L5\] |
 | Edward Fernandez, North Dakota State University | Poster \# 174 |
 | Hanna Pil, North Carolina State University | Poster \# 202; Lightning Talk \[L8\] |
@@ -80,7 +80,7 @@ The maize community offers several attendance and travel awards to encourage att
 |------------------------------------|------------------------------------|
 | Gwonjin Lee, West Virginia State University | Poster \# 15; Lightning Talk \[L28\] |
 | Beth Thompson, East Carolina University |  |
-| Veronica Justen, University of Wisc. - River Falls Poster | \# 282 |
+| Veronica Justen, University of Wisc. - River Falls| Poster \# 282 |
 
 The Maize Genetics Meeting is supported in part by IOS Award #2329928 from the National Science Foundation, Plant Genome Research Program.
 
