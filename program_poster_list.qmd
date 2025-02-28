@@ -36,7 +36,7 @@ library(readxl)
 # }
 # Links need to match generated_poster_list.html sections
 # Link Presenter Description
-M <- read_xlsx('./data/MGM2025-Abstracts_v3.xlsx', sheet = 'Poster')
+M <- read_xlsx('./data/MGM2025-Abstracts_v4.xlsx', sheet = 'Posters')
 M_links <- read.csv('./generated/schedule_links.csv')
 
 subset_M <- function(x = "<font color=\"#339966\">Cell and Developmental Biology </font>"){
@@ -50,6 +50,7 @@ subset_M <- function(x = "<font color=\"#339966\">Cell and Developmental Biology
     mutate(Presenter = paste(PRESENTER_FIRST_NAME, PRESENTER_LAST_NAME, sep = ' ' )) |> 
     rename(Title = TITLE) |>
     select(Poster.Number, Presenter, Title) |>
+    rename(`P###` = Poster.Number) |>
     kable('html', escape = FALSE) |>
     kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
   return(out)

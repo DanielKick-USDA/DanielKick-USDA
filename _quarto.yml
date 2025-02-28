@@ -42,7 +42,7 @@ website:
         href: program_sponsors.qmd
 
   page-footer:
-    left: <span style="color:firebrick">Produced by</span> [<span style="color:firebrick">Daniel Kick, PhD</span>](danielkick.com)
+    left: <span style="color:firebrick">Produced by</span> [<span style="color:firebrick">Daniel Kick, PhD</span>](https://www.danielkick.com)
     background: "#2780e3"  
 
 format:
