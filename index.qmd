@@ -9,6 +9,11 @@ subtitle: ""
 The mgm2025 homepage shows only the current day's events. Select the "Schedule" tab for the full schedule.
 :::
 
+::: {style="text-align: center"}
+[Download schedule](./official/MGM2025Schedule.pdf) | [Download abstract book](./official/2025Program.pdf)
+:::
+
+
 ```{r echo=FALSE}
 #| include: false
 # toc: false
