@@ -10,7 +10,8 @@ The mgm2025 homepage shows only the current day's events. Select the "Schedule" 
 :::
 
 ::: {style="text-align: center"}
-[Download schedule](./official/MGM2025Schedule.pdf) | [Download abstract book](./official/2025Program.pdf)
+Download PDF Versions:
+[Schedule](./official/MGM2025Schedule.pdf) | [Abstract book](./official/2025Program.pdf)
 :::
 
 
