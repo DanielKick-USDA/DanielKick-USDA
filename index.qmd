@@ -81,42 +81,42 @@ k <- function(x){
 ```
 
 
-## [Wednesday, March 5, 2025](./program_schedule.html#wednesday-march-5-2025) 
+<!-- ## [Wednesday, March 5, 2025](./program_schedule.html#wednesday-march-5-2025)  -->
 
-### Optional Pre-Conference Workshops (1/2)
-
-```{r echo=FALSE}
-subset_M(filter(
-  M, 
-  Day == "Wednesday, March 5, 2025", 
-  Name != "OPTIONAL PRE-CONFERENCE WORKSHOPS"
-  )) |> k()
-```
-
-## [Thursday, March 6, 2025](./program_schedule.html#thursday-march-6-2025)  
-
-<!-- ### Optional Pre-Conference Workshops (2/2) -->
+<!-- ### Optional Pre-Conference Workshops (1/2) -->
 
 <!-- ```{r echo=FALSE} -->
 <!-- subset_M(filter( -->
 <!--   M,  -->
-<!--   Day ==  "Thursday, March 6, 2025",  -->
+<!--   Day == "Wednesday, March 5, 2025",  -->
 <!--   Name != "OPTIONAL PRE-CONFERENCE WORKSHOPS" -->
 <!--   )) |> k() -->
 <!-- ``` -->
 
+## [Thursday, March 6, 2025](./program_schedule.html#thursday-march-6-2025)  
 
-<!-- ### Session 1 – Welcome / Keynote / Gene Regulation -->
+### Optional Pre-Conference Workshops (2/2)
 
-<!-- **Sherry Flint-Garcia** -->
+```{r echo=FALSE}
+subset_M(filter(
+  M,
+  Day ==  "Thursday, March 6, 2025",
+  Name != "OPTIONAL PRE-CONFERENCE WORKSHOPS"
+  )) |> k()
+```
 
-<!-- ```{r echo=FALSE} -->
-<!-- subset_M(filter( -->
-<!--   M,  -->
-<!--   Day ==  "Thursday, March 6, 2025",  -->
-<!--   lubridate::hm(StartTime) >= lubridate::hm("19:00") -->
-<!--   )) |> k() -->
-<!-- ``` -->
+
+### Session 1 – Welcome / Keynote / Gene Regulation
+
+**Sherry Flint-Garcia**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M,
+  Day ==  "Thursday, March 6, 2025",
+  lubridate::hm(StartTime) >= lubridate::hm("19:00")
+  )) |> k()
+```
 
 
 
