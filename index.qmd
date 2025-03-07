@@ -93,110 +93,110 @@ k <- function(x){
 <!--   )) |> k() -->
 <!-- ``` -->
 
-## [Thursday, March 6, 2025](./program_schedule.html#thursday-march-6-2025)  
+<!-- ## [Thursday, March 6, 2025](./program_schedule.html#thursday-march-6-2025)   -->
 
-### Optional Pre-Conference Workshops (2/2)
+<!-- ### Optional Pre-Conference Workshops (2/2) -->
 
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Thursday, March 6, 2025",
-  Name != "OPTIONAL PRE-CONFERENCE WORKSHOPS"
-  )) |> k()
-```
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Thursday, March 6, 2025", -->
+<!--   Name != "OPTIONAL PRE-CONFERENCE WORKSHOPS" -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
 
-### Session 1 – Welcome / Keynote / Gene Regulation
+<!-- ### Session 1 – Welcome / Keynote / Gene Regulation -->
 
-**Sherry Flint-Garcia**
+<!-- **Sherry Flint-Garcia** -->
 
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Thursday, March 6, 2025",
-  lubridate::hm(StartTime) >= lubridate::hm("19:00")
-  )) |> k()
-```
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Thursday, March 6, 2025", -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("19:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
 
 
 ## [Friday, March 7, 2025](./program_schedule.html#friday-march-7-2025)   
 
 
-<!-- ```{r echo=FALSE} -->
-<!-- subset_M(filter( -->
-<!--   M,  -->
-<!--   Day ==  "Friday, March 7, 2025",  -->
-<!--   lubridate::hm(StartTime) < lubridate::hm("8:15") -->
-<!--   )) |> k() -->
+```{r echo=FALSE}
+subset_M(filter(
+  M,
+  Day ==  "Friday, March 7, 2025",
+  lubridate::hm(StartTime) < lubridate::hm("8:15")
+  )) |> k()
 
-<!-- ``` -->
-
-
-<!-- ### Session 2 – Modeling Corn -->
-
-<!-- **Hank Bass** -->
-
-<!-- ```{r echo=FALSE} -->
-<!-- subset_M(filter( -->
-<!--   M,  -->
-<!--   Day ==  "Friday, March 7, 2025",  -->
-<!--   lubridate::hm(StartTime) >= lubridate::hm("8:15"), -->
-<!--   lubridate::hm(StartTime) < lubridate::hm("10:45") -->
-<!--   )) |> k() -->
-<!-- ``` -->
+```
 
 
-<!-- ### Session 3 – Education, Community, & Outreach -->
+### Session 2 – Modeling Corn
 
-<!-- **Brandi Sigmon** -->
+**Hank Bass**
 
-<!-- ```{r echo=FALSE} -->
-<!-- subset_M(filter( -->
-<!--   M,  -->
-<!--   Day ==  "Friday, March 7, 2025",  -->
-<!--   lubridate::hm(StartTime) >= lubridate::hm("10:45"), -->
-<!--   lubridate::hm(StartTime) < lubridate::hm("12:15") -->
-<!--   )) |> k() -->
-<!-- ``` -->
-
-<!-- ### Lunch and Poster Session -->
-
-<!-- ```{r echo=FALSE} -->
-<!-- subset_M(filter( -->
-<!--   M,  -->
-<!--   Day ==  "Friday, March 7, 2025",  -->
-<!--   lubridate::hm(StartTime) >= lubridate::hm("12:15"), -->
-<!--   lubridate::hm(StartTime) < lubridate::hm("16:40") -->
-<!--   )) |> k() -->
-<!-- ``` -->
-
-<!-- ### Session 4 – Maize Under Stress -->
-
-<!-- **Melissa Draves** -->
-
-<!-- ```{r echo=FALSE} -->
-<!-- subset_M(filter( -->
-<!--   M,  -->
-<!--   Day ==  "Friday, March 7, 2025",  -->
-<!--   lubridate::hm(StartTime) >= lubridate::hm("16:40"), -->
-<!--   lubridate::hm(StartTime) < lubridate::hm("19:00") -->
-<!--   )) |> k() -->
-<!-- ``` -->
+```{r echo=FALSE}
+subset_M(filter(
+  M,
+  Day ==  "Friday, March 7, 2025",
+  lubridate::hm(StartTime) >= lubridate::hm("8:15"),
+  lubridate::hm(StartTime) < lubridate::hm("10:45")
+  )) |> k()
+```
 
 
+### Session 3 – Education, Community, & Outreach
 
-<!-- ### Session 5 – Awards -->
+**Brandi Sigmon**
 
-<!-- **Andrea Eveland** -->
+```{r echo=FALSE}
+subset_M(filter(
+  M,
+  Day ==  "Friday, March 7, 2025",
+  lubridate::hm(StartTime) >= lubridate::hm("10:45"),
+  lubridate::hm(StartTime) < lubridate::hm("12:15")
+  )) |> k()
+```
 
-<!-- ```{r echo=FALSE} -->
-<!-- subset_M(filter( -->
-<!--   M,  -->
-<!--   Day ==  "Friday, March 7, 2025",  -->
-<!--   lubridate::hm(StartTime) >= lubridate::hm("19:00") -->
-<!--   )) |> k() -->
-<!-- ``` -->
+### Lunch and Poster Session
+
+```{r echo=FALSE}
+subset_M(filter(
+  M,
+  Day ==  "Friday, March 7, 2025",
+  lubridate::hm(StartTime) >= lubridate::hm("12:15"),
+  lubridate::hm(StartTime) < lubridate::hm("16:40")
+  )) |> k()
+```
+
+### Session 4 – Maize Under Stress
+
+**Melissa Draves**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M,
+  Day ==  "Friday, March 7, 2025",
+  lubridate::hm(StartTime) >= lubridate::hm("16:40"),
+  lubridate::hm(StartTime) < lubridate::hm("19:00")
+  )) |> k()
+```
+
+
+
+### Session 5 – Awards
+
+**Andrea Eveland**
+
+```{r echo=FALSE}
+subset_M(filter(
+  M,
+  Day ==  "Friday, March 7, 2025",
+  lubridate::hm(StartTime) >= lubridate::hm("19:00")
+  )) |> k()
+```
 
 
 
