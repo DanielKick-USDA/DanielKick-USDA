@@ -3,12 +3,10 @@ title: "67th Annual Maize Genetics Meeting"
 subtitle: ""
 ---
 
-::: {.callout-tip appearance="simple" icon="false"}
-## Tip:
+::: {.callout-note appearance="simple" icon="false"}
+## <span style="color:darkred">Note:</span>
 
-The mgm2025 homepage shows only the current day's events. Select the "Schedule" tab for the full schedule.
-
-
+Events on both Saturday and Sunday are shown below. 
 :::
 
 ::: {style="text-align: center"}
