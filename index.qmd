@@ -4,9 +4,9 @@ subtitle: ""
 ---
 
 ::: {.callout-note appearance="simple" icon="false"}
-## <span style="color:darkred">Note:</span>
+## 
 
-Events on both Saturday and Sunday are shown below. 
+Thank you for attending the Maize Genetics Meeting, we look forward to seeing you next year!
 :::
 
 ::: {style="text-align: center"}
@@ -81,7 +81,7 @@ k <- function(x){
 ```
 
 
-<!-- ## [Wednesday, March 5, 2025](./program_schedule.html#wednesday-march-5-2025)  -->
+## [Wednesday, March 5, 2025](./program_schedule.html#wednesday-march-5-2025)
 
 <!-- ### Optional Pre-Conference Workshops (1/2) -->
 
@@ -93,7 +93,7 @@ k <- function(x){
 <!--   )) |> k() -->
 <!-- ``` -->
 
-<!-- ## [Thursday, March 6, 2025](./program_schedule.html#thursday-march-6-2025)   -->
+## [Thursday, March 6, 2025](./program_schedule.html#thursday-march-6-2025)
 
 <!-- ### Optional Pre-Conference Workshops (2/2) -->
 
@@ -120,7 +120,7 @@ k <- function(x){
 
 
 
-<!-- ## [Friday, March 7, 2025](./program_schedule.html#friday-march-7-2025)    -->
+## [Friday, March 7, 2025](./program_schedule.html#friday-march-7-2025)
 
 
 <!-- ```{r echo=FALSE} -->
@@ -203,116 +203,116 @@ k <- function(x){
 ## [Saturday, March 8, 2025](./program_schedule.html#saturday-march-8-2025)
 
 
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Saturday, March 8, 2025",
-  lubridate::hm(StartTime) < lubridate::hm("8:15")
-  )) |> k()
-```
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Saturday, March 8, 2025", -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("8:15") -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
 
-### Session 6 – Roots & Nutrient Uptake / Keynote
+<!-- ### Session 6 – Roots & Nutrient Uptake / Keynote -->
 
-**Rubén Rellán Álvarez**
+<!-- **Rubén Rellán Álvarez** -->
 
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Saturday, March 8, 2025",
-  lubridate::hm(StartTime) >= lubridate::hm("8:15"),
-  lubridate::hm(StartTime) < lubridate::hm("10:30")
-  )) |> k()
-```
-
-
-### Session 7 – Keynote / Cell Division & Meristems
-
-**Sarah Jensen**
-
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Saturday, March 8, 2025",
-  lubridate::hm(StartTime) >= lubridate::hm("10:30"),
-  lubridate::hm(StartTime) < lubridate::hm("12:30")
-  )) |> k()
-```
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Saturday, March 8, 2025", -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("8:15"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("10:30") -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
 
-### Lunch, Poster Session, & Community Session
+<!-- ### Session 7 – Keynote / Cell Division & Meristems -->
 
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Saturday, March 8, 2025",
-  lubridate::hm(StartTime) >= lubridate::hm("12:30"),
-  lubridate::hm(StartTime) < lubridate::hm("19:00")
-  )) |> k()
-```
+<!-- **Sarah Jensen** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Saturday, March 8, 2025", -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("10:30"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("12:30") -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
 
-### Session 8 – Reproduction / Keynote
+<!-- ### Lunch, Poster Session, & Community Session -->
 
-**Cinta Romay**
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Saturday, March 8, 2025", -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("12:30"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("19:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Saturday, March 8, 2025",
-  lubridate::hm(StartTime) >= lubridate::hm("19:00")
-  )) |> k()
-```
+
+<!-- ### Session 8 – Reproduction / Keynote -->
+
+<!-- **Cinta Romay** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Saturday, March 8, 2025", -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("19:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
 ## [Sunday, March 9, 2025](./program_schedule.html#sunday-march-9-2025)
 
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Sunday, March 9, 2025",
-  lubridate::hm(StartTime) < lubridate::hm("8:00")
-  )) |> k()
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Sunday, March 9, 2025", -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("8:00") -->
+<!--   )) |> k() -->
 
-```
-
-
-### Session 9 – Epigenetics
-
-**Katie Murphy**
-
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Sunday, March 9, 2025",
-  lubridate::hm(StartTime) >= lubridate::hm("8:25"),
-  lubridate::hm(StartTime) < lubridate::hm("10:20")
-  )) |> k()
-```
-
-### Session 10 - Building a Stronger Maize Plant
-
-**Frank Hochholdinger**
-
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Sunday, March 9, 2025",
-  lubridate::hm(StartTime) >= lubridate::hm("10:20"),
-  lubridate::hm(StartTime) < lubridate::hm("12:00")
-  )) |> k()
-```
+<!-- ``` -->
 
 
-### Optional Post-Conference Workshop
+<!-- ### Session 9 – Epigenetics -->
 
-```{r echo=FALSE}
-subset_M(filter(
-  M,
-  Day ==  "Sunday, March 9, 2025",
-  Name != "OPTIONAL POST-CONFERENCE EVENT",
-  lubridate::hm(StartTime) > lubridate::hm("12:00")
-  )) |> k()
-```
+<!-- **Katie Murphy** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Sunday, March 9, 2025", -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("8:25"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("10:20") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+<!-- ### Session 10 - Building a Stronger Maize Plant -->
+
+<!-- **Frank Hochholdinger** -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Sunday, March 9, 2025", -->
+<!--   lubridate::hm(StartTime) >= lubridate::hm("10:20"), -->
+<!--   lubridate::hm(StartTime) < lubridate::hm("12:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
+
+
+<!-- ### Optional Post-Conference Workshop -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- subset_M(filter( -->
+<!--   M, -->
+<!--   Day ==  "Sunday, March 9, 2025", -->
+<!--   Name != "OPTIONAL POST-CONFERENCE EVENT", -->
+<!--   lubridate::hm(StartTime) > lubridate::hm("12:00") -->
+<!--   )) |> k() -->
+<!-- ``` -->
 
 
 
